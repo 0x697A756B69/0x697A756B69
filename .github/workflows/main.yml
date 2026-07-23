@@ -19,6 +19,7 @@ jobs:
           user: "0x697A756B69"
           filename: metrics.svg
           base: ""
+          config_display: large
           plugin_isocalendar: yes
           output_action: commit
           retries: 1
@@ -26,7 +27,16 @@ jobs:
           retries_output_action: 1
           retries_delay_output_action: 10
           extras_css: |
-            svg { filter: grayscale(1); }
+            /* nombre d'or : 960 / 1.6180339887 = 593.33 */
+            svg {
+              filter: grayscale(1);
+              width: 960px;
+              height: 593px;
+            }
+            .background {
+              width: 960px;
+              height: 593px;
+            }
             path[fill="#ebedf0"] { fill: #e6e6e6 !important; }
             path[fill="#9be9a8"] { fill: #b8b8b8 !important; }
             path[fill="#40c463"] { fill: #8c8c8c !important; }
