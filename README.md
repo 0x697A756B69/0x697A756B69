@@ -28,7 +28,7 @@ I build to learn, in the service of people.
 ![Notion](https://img.shields.io/badge/Notion-0d0d0d?style=flat-square&logo=notion&logoColor=ededed)
 
 <div align="center">
-    <img src="./metrics.svg" alt="" width="858">
+    <img src="./metrics.svg" alt="" width="530">
 </div>
 
 ---
