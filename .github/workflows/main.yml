@@ -11,15 +11,20 @@ permissions:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: ELM-CIEL
+          user: 0x697A756B69
           filename: metrics.svg
           base: ""
           plugin_isocalendar: yes
           output_action: commit
+          retries: 1
+          retries_delay: 10
+          retries_output_action: 1
+          retries_delay_output_action: 10
           extras_css: |
             svg { filter: grayscale(1); }
             path[fill="#ebedf0"] { fill: #e6e6e6 !important; }
