@@ -19,6 +19,7 @@ I build to learn, in the service of people.
 ![C#](https://img.shields.io/badge/C%23-0d0d0d?style=flat-square)
 ![React](https://img.shields.io/badge/React-0d0d0d?style=flat-square&logo=react&logoColor=ededed)
 ![Next.js](https://img.shields.io/badge/Next.js-0d0d0d?style=flat-square&logo=nextdotjs&logoColor=ededed)
+![Lua](https://img.shields.io/badge/Lua-0d0d0d?style=flat-square&logo=lua&logoColor=ededed)
 
 <sub>tools</sub>
 
@@ -26,6 +27,7 @@ I build to learn, in the service of people.
 ![VSCodium](https://img.shields.io/badge/VSCodium-0d0d0d?style=flat-square&logo=vscodium&logoColor=ededed)
 ![Docker](https://img.shields.io/badge/Docker-0d0d0d?style=flat-square&logo=docker&logoColor=ededed)
 ![Notion](https://img.shields.io/badge/Notion-0d0d0d?style=flat-square&logo=notion&logoColor=ededed)
+![Obsidian](https://img.shields.io/badge/Obsidian-0d0d0d?style=flat-square&logo=obsidian&logoColor=ededed)
 
 <div align="center">
     <img src="./metrics.svg" alt="" width="530">
